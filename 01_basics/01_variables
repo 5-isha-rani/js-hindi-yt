@@ -1,0 +1,7 @@
+const account = 1;
+let name = "isha";
+let password = "1234";
+ age = 22;
+console.table([name , password, age]);
+// account = 2
+// console.log(account);
