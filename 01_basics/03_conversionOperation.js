@@ -21,14 +21,23 @@ let isLog = "ijjh";
 // console.log(isBoolLog);  //true
 
 let isStringLog = Boolean(isLog);
-console.log(isStringLog);   //true
+// console.log(isStringLog);   //true
 
 let emptyString = "";
-console.log(Boolean(emptyString)); //false
+// console.log(Boolean(emptyString)); //false
 
 
 let num = 33;
 let stringNum = String(num);
-console.log(typeof stringNum);   //string
-console.log(stringNum);
+// console.log(typeof stringNum);   //string
+// console.log(stringNum);
 
+// ****************OPERATIONS***************************** //
+
+
+// console.log("1" + 2);  // -->12
+// console.log(1 + "2");  //--> 12
+// console.log("1" + 2 + 2); // -->122
+// console.log(1 + 2 + "3");  // -->33
+
+// console.log(+true);
