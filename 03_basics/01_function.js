@@ -19,8 +19,8 @@ function loginUserMsg(username)
    
     return `${username} just logged in `
 }
-const ans = loginUserMsg();//if i dont pass arguments then -->undefined
-console.log(ans);
+// const ans = loginUserMsg();//if i dont pass arguments then -->undefined
+// console.log(ans);
 
 //to avoid undefined cases
 function msg(username = "isha")
@@ -28,25 +28,37 @@ function msg(username = "isha")
 return `${username} messaged`
 
 }
-console.log(msg())
+// console.log(msg())
 
 function calcPrice(...num1){
     return num1
 }
-console.log(calcPrice(200 , 400 , 500))
+// console.log(calcPrice(200 , 400 , 500))
 
 function calc(val1 , val2 , ...num)
 {
     return num
 }
-console.log(calc(200 , 400 , 500 , 600))
+// console.log(calc(200 , 400 , 500 , 600))
+
+
+
+
 
 const user = {
     name:"isha",
     price: 199
 }
-function handle(u)
+function handle(obj)
 {
-    console.log(user.name)
+    console.log(`name is ${obj.name} and price is ${obj.price}`)
 }
-handle(user);
+// handle(user);
+// handle({name:"ishu", price:22})
+const arr = [200, 300 , 400];
+function arrfun(myarr)
+{
+    console.log(myarr);
+}
+// arrfun(arr);
+arrfun([76,87,56])
