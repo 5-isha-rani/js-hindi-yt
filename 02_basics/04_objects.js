@@ -69,3 +69,13 @@ const user3 = [
 // console.log(Object.values(user));
 console.log(Object.entries(user));
 console.log(user.hasOwnProperty('name'));
+
+//*********object destructure***********//
+const course = {
+    cname:"js in hindi",
+    price:"999",
+    teacher:"hitesh"
+}
+// console.log(course.teacher);
+const{cname:name , price} = course;
+console.log(name);
