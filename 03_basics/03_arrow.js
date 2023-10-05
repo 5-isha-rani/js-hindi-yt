@@ -30,4 +30,16 @@ const addTwo = (num1,num2)=> (num1+num2)
 // console.log(addTwo(2,3))
 
 const fun = ()=>({username:"isha"})
-console.log(fun())
+// console.log(fun())
+
+//normal function has arguments object
+function print(){
+    console.log(arguments) 
+}
+print(20,30,40)  //returns an object   --> [Arguments] { '0': 20, '1': 30, '2': 40 }
+
+//arrow function dont have 
+const print1 = ()=>{
+    console.log(arguments) //error
+}
+// print1(20,38,78)
