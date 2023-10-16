@@ -12,7 +12,7 @@ const num2 = num.map(x=> x*10 )
 const num3 = [1,2,3,4,5]
 
 const initial_value = 0;
-let res = num3.reduce(x => , initial_value);
+let res = num3.reduce((sum , curval) => sum+curval, initial_value);
 console.log(res);
 
 
